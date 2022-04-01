@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+x -type d *
+sudo chmod ugo+x $(find 0x01-shell_permissions/ -type d)
